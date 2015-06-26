@@ -14,18 +14,18 @@ Fname varchar (20),
 Lname varchar (35),
 DOB date,
 Country varchar(20),
-Height(cms) int,
+Height int,
 Club varchar(30),
 Position varchar(10),
 Caps_for_Country int,
-is_captain Boolean
+Is_captain varchar(10)
 );
 
 CREATE TABLE match_results
 (
 Match_id int,
 Date_of_Match date,
-Start_Time_Of_Match time,
+Start_Time_Of_Match timestamp,
 Team1 varchar(25),
 Team2 varchar(25),
 Team1_score int,
@@ -49,3 +49,5 @@ Goals int,
 Assists int,
 Minutes_Played int
 );
+
+COMMIT;
