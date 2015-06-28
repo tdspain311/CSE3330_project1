@@ -1,7 +1,8 @@
 <?php
-$servername = "omega.uta.edu";
-$username = "ims3488";
-$password = "test123";
+$servername = "localhost";
+$username = "test_user";
+$password = "password";
+$dbname = "soccer";
 
 // Create connection
 //$conn = new oci_connect($servername, $username, $password);
@@ -13,7 +14,9 @@ $password = "test123";
 //echo fread($myfile,filesize("webdictionary.txt"));
 //fclose($myfile);
 
-$conn = new mysqli($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+echo $conn;
 
 // Check connection
 if ($conn->connect_error) {
@@ -21,15 +24,27 @@ if ($conn->connect_error) {
 }
 
 echo "<br/> <br/> Load Country.csv <br/>";
-$myfile = fopen("/home/i/im/ims3488/public_html/Input_Data/Input_Data/Country.csv", "r") or die("Unable to openfile!");
+
+$myfile = fopen("Input_Data/Country.csv", "r") or die("Unable to openfile!");
+
 foreach($myfile as $line){
 
 	//extract the variables
 	list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=explode(",", $line);
 	
+	
 	//making a query string
 	$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('$Country_Name','$Population','$No_of_Worldcup_won','$Manager')";
 
+	echo $sql;
+	
+	$conn->query($sql);
+	/*
+	if (mysqli_query($conn, $sql)) {
+		echo "New record created successfully";
+	} else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	}*/
 	//error checking
 /*if ( !mysql_query($sql) ) {
 		echo("<P>Error inserting data: " .
@@ -40,9 +55,11 @@ foreach($myfile as $line){
 */
 }
 //echo //fread($myfile,filesize("/home/i/im/ims3488/public_html/Input_Data/Input_Data/Country.csv"));
+echo "file loaded successfully";
+
 fclose($myfile);
 
-
+/*
 echo "<br/> <br/> Load Players.csv <br/>";
 
 $myfile = fopen("/home/i/im/ims3488/public_html/Input_Data/Input_Data/Players.csv", "r") or die("Unable to openfile!");
@@ -103,7 +120,7 @@ foreach($myfile as $line){
 fclose($myfile);
 
 
-
+*/
 ?>
 
 
