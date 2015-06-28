@@ -1,15 +1,12 @@
 <?php
-$servername = "omega.uta.edu";
+$servername = "localhost";
 $username = "trd7801";
 $password = "testing";
+$dbname = "user_tables";
 
 // Create connection
-$conn = new oci_connect($servername, $username, $password);
-
-// Check connection
-if ($conn->oci_error) {
-    die("Connection failed: " . $conn->oci_error);
-} 
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // sql to create table
 $sql = "CREATE TABLE testing_table 
@@ -19,6 +16,7 @@ firstname VARCHAR(30),
 lastname VARCHAR(30)
 )";
 
+//$conn->query($sql);
 
 if ($conn->query($sql) === TRUE) {
     echo "Table testing_table created successfully";
@@ -27,4 +25,5 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
 ?>
