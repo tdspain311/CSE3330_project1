@@ -34,7 +34,7 @@ echo $myfile;
 
 while (! feof($myfile))
 {
-	$line = (fgetcsv($myfile));
+	$line = fgetcsv($myfile);
 	
 	echo $line;
 	
