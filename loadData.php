@@ -30,24 +30,34 @@ echo "<br/> <br/> Load Country.csv <br/>";
 //**TESTING**
 $myfile = fopen("Input_Data/Country.csv", "r");
 
-echo $myfile;
+//echo $myfile;
 
 while (! feof($myfile))
 {
-	$line = fgetcsv($myfile);
+	$line = fgetcsv($myfile, 1000, ',', '\r');
 	
-	echo $line;
 	
-	list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=explode(",", $line);
+	//list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=explode(",\r", $line);
+	list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=$line;
 	
-	echo $list;
 	
-	$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('" . $Country_Name . "','" . $Population . "','" . $No_of_Worldcup_won . "','" . $Manager . "')";
+	echo $Country_Name;
+	echo $Population;
+	echo $No_of_Worldcup_won;
+	echo $Manager;
 	
-	echo $sql;
 	
-	//mysqli_query($conn, $sql);
+	//$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('" . $Country_Name . "','" . $Population . "','" . $No_of_Worldcup_won . "','" . $Manager . "')";
 	
+	//echo $sql;
+	
+	//$conn->query($sql);
+	
+	if (mysqli_query($conn, $sql)) {
+		echo "New record created successfully";
+	} else {
+		echo "<br>Error: " . $sql . "<br>" . mysqli_error($conn);
+	}
 }
 fflush($myfile);
 /*
