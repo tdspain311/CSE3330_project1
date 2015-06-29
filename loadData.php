@@ -24,8 +24,25 @@ if ($conn->connect_error) {
 
 echo "<br/> <br/> Load Country.csv <br/>";
 
-$myfile = fopen("Input_Data/Country.csv", "r") or die("Unable to openfile!");
+//$myfile = fopen("Input_Data/Country.csv", "r") or die("Unable to openfile!");
 
+
+//**TESTING**
+$myfile = fopen("Input_Data/Country.csv", "r");
+
+while (! feof($myfile))
+{
+	$line = (fgetcsv($myfile));
+	
+	list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=explode(",", $line);
+	
+	$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('$Country_Name','$Population','$No_of_Worldcup_won','$Manager')";
+	
+	mysqli_query($conn, $sql);
+	
+}
+fflush($myfile);
+/*
 foreach($myfile as $line){
 
 	//extract the variables
@@ -51,13 +68,13 @@ foreach($myfile as $line){
 		mysql_error() . "</P>");
 
 	}
-*/
+
 }
 //echo //fread($myfile,filesize("/home/i/im/ims3488/public_html/Input_Data/Input_Data/Country.csv"));
 echo "file loaded successfully";
 
 fclose($myfile);
-
+*/
 /*
 echo "<br/> <br/> Load Players.csv <br/>";
 
