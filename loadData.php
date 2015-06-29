@@ -30,15 +30,23 @@ echo "<br/> <br/> Load Country.csv <br/>";
 //**TESTING**
 $myfile = fopen("Input_Data/Country.csv", "r");
 
+echo $myfile;
+
 while (! feof($myfile))
 {
 	$line = (fgetcsv($myfile));
 	
+	echo $line;
+	
 	list($Country_Name, $Population, $No_of_Worldcup_won, $Manager)=explode(",", $line);
 	
-	$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('$Country_Name','$Population','$No_of_Worldcup_won','$Manager')";
+	echo $list;
 	
-	mysqli_query($conn, $sql);
+	$sql="INSERT INTO country(Country_Name, Population, No_of_Worldcup_won, Manager) VALUES ('" . $Country_Name . "','" . $Population . "','" . $No_of_Worldcup_won . "','" . $Manager . "')";
+	
+	echo $sql;
+	
+	//mysqli_query($conn, $sql);
 	
 }
 fflush($myfile);
