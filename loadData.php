@@ -16,7 +16,6 @@ $dbname = "soccer";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-echo $conn;
 
 // Check connection
 if ($conn->connect_error) {
