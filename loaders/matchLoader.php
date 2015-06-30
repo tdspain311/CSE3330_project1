@@ -1,11 +1,22 @@
 <?php
+$servername = "localhost";
+$username = "test_user";
+$password = "password";
+$dbname = "soccer";
 
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    //die("Connection failed: " . $conn->connect_error);
+    echo "Connection error";
+} 
 
 //Match Results Loader
 
 echo "<br/> <br/> Load Match_results.csv <br/>";
 
-$myfile = fopen("Input_Data/Match_results.csv", "r") or die("Unable to openfile!");
+$myfile = fopen("../Input_Data/Match_results.csv", "r") or die("Unable to openfile!");
 
 while(!feof($myfile)){
     $line = fgets($myfile);

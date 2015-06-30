@@ -1,10 +1,22 @@
 <?php
+$servername = "localhost";
+$username = "test_user";
+$password = "password";
+$dbname = "soccer";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    //die("Connection failed: " . $conn->connect_error);
+    echo "Connection error";
+} 
 
 //Player Assist Goals Loader
 
 echo "<br/> <br/> Load Player_Assists_Goals.csv <br/>";
 
-$myfile = fopen("Input_Data/Player_Assists_Goals.csv", "r") or die("Unable to openfile!");
+$myfile = fopen("../Input_Data/Player_Assists_Goals.csv", "r") or die("Unable to openfile!");
 
 while(!feof($myfile)){
     $line = fgets($myfile);
