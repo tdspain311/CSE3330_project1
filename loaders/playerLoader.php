@@ -35,7 +35,15 @@ while(!feof($myfile)){
 		 $Position, 
 		 $Caps_for_Country, 
 		 $Is_captain)=explode(",", $newstring);
-
+		 
+	$sql = "INSERT INTO players VALUES (" . $Player_id . ", " . $Name . ", " . $FName . ", " . $LName . ", " . $DOB . ", " . $Country . ", " . $Height . ", " . $Club . ", " . $Position . ", " . $Caps_for_Country . ", " . $Is_captain . ");";
+	
+	if ($conn->query($sql) === TRUE) {
+		echo "<br>" . $Player_id . ", " . $Name . ", " . $FName . ", " . $LName . ", " . $DOB . ", " . $Country . ", " . $Height . ", " . $Club . ", " . $Position . ", " . $Caps_for_Country . ", " . $Is_captain . "  added successfully";
+	} else {
+		echo "<br>Error adding data: " . $conn->error;
+	}
+/* 
     $stmt = $conn->prepare("INSERT INTO `soccer`.`players` (`Player_id', 'Name', 'FName', 'LName', 'DOB', 'Country', 'Height', 'Club', 'Position', 'Caps_for_Country', 'Is_captain`) VALUES (?,?,?,?,?,?,?,?,?,?,?)");
  
     $stmt->bind_param("isssssissis", 
@@ -55,7 +63,7 @@ while(!feof($myfile)){
     $stmt->execute();
     
     $stmt->close();
-    
+ */    
 }
 fflush($myfile);
 ?>

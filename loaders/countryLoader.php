@@ -27,8 +27,17 @@ while(!feof($myfile)){
 		 $Population, 
 		 $No_of_Worldcup_won, 
 		 $Manager)=explode(",", $newstring);
-
-    $stmt = $conn->prepare("INSERT INTO `soccer`.`country` (`Country_Name`, `Population`, `No_of_Worldcup_won`, `Manager`) VALUES (?,?,?,?)");
+		 
+		
+	$sql = "INSERT INTO country VALUES (" . $Country_Name . ", " . $Population . ", " . $No_of_Worldcup_won . ", " . $Manager . ");";
+	
+	if ($conn->query($sql) === TRUE) {
+		echo "<br>" . $Country_Name . ", " . $Population . ", " . $No_of_Worldcup_won . ", " . $Manager . "  added successfully";
+	} else {
+		echo "<br>Error adding data: " . $conn->error;
+	}
+/* 
+    $stmt = $conn->prepare("INSERT INTO country VALUES (?,?,?,?)");
  
     $stmt->bind_param("sdis", 
 			$Country_Name, 
@@ -40,7 +49,7 @@ while(!feof($myfile)){
     $stmt->execute();
     
     $stmt->close();
-    
+ */    
 }
 fflush($myfile);
 

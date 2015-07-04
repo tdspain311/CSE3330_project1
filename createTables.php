@@ -49,7 +49,7 @@ $sql = "CREATE TABLE match_results
 (
 Match_id INT PRIMARY KEY,
 Date_of_Match DATE,
-Start_Time_Of_Match TIMESTAMP,
+Start_Time_Of_Match TIME,
 Team1 VARCHAR(25),
 Team2 VARCHAR(25),
 Team1_score INT,
@@ -59,6 +59,11 @@ Host_City VARCHAR(20),
 FOREIGN KEY (Team1) REFERENCES country(Country_Name),
 FOREIGN KEY (Team2) REFERENCES country(Country_Name) 
 );";
+//TESTING
+/* ,
+FOREIGN KEY (Team1) REFERENCES country(Country_Name),
+FOREIGN KEY (Team2) REFERENCES country(Country_Name)  
+*/
 
 if ($conn->query($sql) === TRUE) {
     echo "<br>Table match_results created successfully";
@@ -68,7 +73,7 @@ if ($conn->query($sql) === TRUE) {
 
 $sql = "CREATE TABLE player_cards
 (
-Player_id INT,
+Player_id INT PRIMARY KEY,
 Yellow_Cards INT,
 Red_Cards INT,
 FOREIGN KEY (Player_id) REFERENCES players(Player_id) 
@@ -82,7 +87,7 @@ if ($conn->query($sql) === TRUE) {
 
 $sql = "CREATE TABLE player_assists_goals 
 (
-Player_id INT,
+Player_id INT PRIMARY KEY,
 No_of_Matches INT,
 Goals INT,
 Assists INT,

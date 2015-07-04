@@ -27,9 +27,16 @@ while(!feof($myfile)){
 		 $Goals, 
 		 $Assists, 
 		 $Minutes_Played)=explode(",", $newstring);
-
-  
- $stmt = $conn->prepare("INSERT INTO `soccer`.`player_assists_goals` (`Player_id`, `No_of_Matches`, `Goals`, `Assists`, 'Minutes_Played') VALUES (?,?,?,?,?)");
+		 
+	$sql = "INSERT INTO player_assists_goals VALUES (" . $Player_id . ", " . $No_of_Matches . ", " . $Goals . ", " . $Assists . ", " . $Minutes_Played . ");";
+	
+	if ($conn->query($sql) === TRUE) {
+		echo "<br>" . $Player_id . ", " . $No_of_Matches . ", " . $Goals . ", " . $Assists . ", " . $Minutes_Played . "  added successfully";
+	} else {
+		echo "<br>Error adding data: " . $conn->error;
+	}
+/*   
+	$stmt = $conn->prepare("INSERT INTO `soccer`.`player_assists_goals` (`Player_id`, `No_of_Matches`, `Goals`, `Assists`, 'Minutes_Played') VALUES (?,?,?,?,?)");
  
 
     $stmt->bind_param("iiiii", 
@@ -43,7 +50,7 @@ while(!feof($myfile)){
     $stmt->execute();
     
     $stmt->close();
-    
+*/  
 }
 fflush($myfile);
 

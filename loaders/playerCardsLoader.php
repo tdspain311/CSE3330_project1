@@ -23,10 +23,18 @@ while(!feof($myfile)){
 
     $newstring = preg_replace("/[\r\n]/","",$line);
  
-    	list($Player_id, 
-			 $Yellow_Cards, 
-			 $Red_Cards)=explode(",", $newstring);
-
+	list($Player_id, 
+		 $Yellow_Cards, 
+		 $Red_Cards)=explode(",", $newstring);
+			 
+	$sql = "INSERT INTO player_cards VALUES (" . $Player_id . ", " . $Yellow_Cards . ", " . $Red_Cards . ");";
+	
+	if ($conn->query($sql) === TRUE) {
+		echo "<br>" . $Player_id . ", " . $Yellow_Cards . ", " . $Red_Cards . "  added successfully";
+	} else {
+		echo "<br>Error adding data: " . $conn->error;
+	}
+/* 
     $stmt = $conn->prepare("INSERT INTO `soccer`.`player_cards` (`Player_id`, `Yellow_Cards`,  `Red_Cards`) VALUES (?,?,?)");
  
     $stmt->bind_param("iii", 
@@ -38,7 +46,7 @@ while(!feof($myfile)){
     $stmt->execute();
     
     $stmt->close();
-    
+ */    
 }
 fflush($myfile);
 
