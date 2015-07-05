@@ -7,7 +7,7 @@ $dbname = "soccer";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname); 
 
-$sql = "SELECT Team2, COUNT(Team2) AS Teams, SUM(Team1_score) AS Team1Total, SUM(Team2_score) AS Team2Total FROM match_results GROUP BY Team2;";
+$sql = "CREATE VIEW Team_Summary AS SELECT country.Country_Name AS CountryName, COUNT(Team1) + COUNT(Team2) AS NoOfGames, SUM(Team1_score) + SUM(Team2_score) AS TotalGoalsFor, SUM(Team1_score) AS Team1Total, SUM(Team2_score) AS Team2Total FROM match_results GROUP BY country.Country_Name ORDER BY CountryName DESC;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
