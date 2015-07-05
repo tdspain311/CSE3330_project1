@@ -5,7 +5,6 @@ $password = "password";
 $dbname = "soccer";
 
 // Create connection
-// Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // sql to create table
