@@ -11,7 +11,7 @@ $sql = "SELECT Team1, COUNT(Team1) AS Teams, SUM(Team1_score) AS Team1Total, SUM
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table><tr style='text-align: left'><th>Team</th><th>Games</th><th>Team 1 Totals</th><th>Team 2 Totals</th></tr>";
+    echo "<table><tr style='text-align: left'><th>Team</th><th>Games</th><th>Total Goals Scored</th><th>Total Goals Against</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<tr><td>".$row["Team1"]."</td><td>".$row["Teams"]."</td><td>".$row["Team1Total"]."</td><td>".$row["Team2Total"]."</td></tr>";
