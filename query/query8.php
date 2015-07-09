@@ -9,9 +9,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 
 // Create View
-$sql = "CREATE VIEW Team_Summary AS SELECT Team1 AS Teams, COUNT(Team1 AND Team2) AS NoOfGames, SUM(Team1_score) AS TotalGoalsFor, SUM(Team2_score) AS TotalGoalsAgainst FROM match_results  WHERE Team2=Team1 GROUP BY Team1;";
+$sql = "CREATE OR REPLACE VIEW Team_Summary AS SELECT Team1 AS Teams, COUNT(Team1) + COUNT(Team2) AS NoOfGames, SUM(Team1_score) AS TotalGoalsFor, SUM(Team2_score) AS TotalGoalsAgainst FROM match_results GROUP BY Team1;";
 $conn->query($sql);
-
 
 // Query View
 $sql = "SELECT * FROM Team_Summary;";
