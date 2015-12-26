@@ -1,0 +1,9 @@
+SQL> delete from country where country_name='Ghana';
+delete from country where country_name='Ghana'
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (IMS3488.COUNTRYFK) violated - child record 
+found 
+
+
+SQL> spool off

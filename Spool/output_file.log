@@ -1,0 +1,20 @@
+SQL> @initial.sql
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Commit complete.
+
+SQL> exit

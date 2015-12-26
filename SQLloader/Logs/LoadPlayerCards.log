@@ -1,0 +1,50 @@
+
+SQL*Loader: Release 10.2.0.4.0 - Production on Sun Jul 5 16:41:53 2015
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+Control File:   LoadPlayerCards.txt
+Data File:      Player_Cards.csv
+  Bad File:     Player_Cards.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PLAYER_CARDS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PLAYER_ID                           FIRST     *   ,  O(") CHARACTER            
+YELLOW_CARDS                         NEXT     *   ,  O(") CHARACTER            
+RED_CARDS                            NEXT     *   ,  O(") CHARACTER            
+
+
+Table PLAYER_CARDS:
+  164 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  49536 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           164
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Jul 05 16:41:53 2015
+Run ended on Sun Jul 05 16:42:08 2015
+
+Elapsed time was:     00:00:14.11
+CPU time was:         00:00:00.02

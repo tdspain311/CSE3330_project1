@@ -1,0 +1,60 @@
+
+SQL*Loader: Release 10.2.0.4.0 - Production on Sun Jul 5 16:41:15 2015
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+Control File:   LoadPlayers.txt
+Data File:      Players.csv
+  Bad File:     Players.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:   Last non-white character != 0X3b(character ';')
+                Preserving continuation characters as data
+Path used:      Conventional
+
+Table PLAYERS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PLAYER_ID                           FIRST     *   ,  O(") CHARACTER            
+NAME                                 NEXT     *   ,  O(") CHARACTER            
+FNAME                                NEXT     *   ,  O(") CHARACTER            
+LNAME                                NEXT     *   ,  O(") CHARACTER            
+DOB                                  NEXT     *   ,  O(") DATE YYYY-MM-DD      
+COUNTRY                              NEXT     *   ,  O(") CHARACTER            
+HEIGHT                               NEXT     *   ,  O(") CHARACTER            
+CLUB                                 NEXT     *   ,  O(") CHARACTER            
+POSITION                             NEXT     *   ,  O(") CHARACTER            
+CAPS_FOR_COUNTRY                     NEXT     *   ,  O(") CHARACTER            
+IS_CAPTAIN                           NEXT     *   ,  O(") CHARACTER            
+
+Record 737: Discarded - all columns null.
+
+Table PLAYERS:
+  736 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  1 Row not loaded because all fields were null.
+
+
+Space allocated for bind array:                 181632 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           737
+Total logical records rejected:         0
+Total logical records discarded:        1
+
+Run began on Sun Jul 05 16:41:15 2015
+Run ended on Sun Jul 05 16:41:26 2015
+
+Elapsed time was:     00:00:10.43
+CPU time was:         00:00:00.03

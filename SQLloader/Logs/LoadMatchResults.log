@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 10.2.0.4.0 - Production on Sun Jul 5 16:41:27 2015
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+Control File:   LoadMatchResults.txt
+Data File:      Match_results.csv
+  Bad File:     Match_results.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MATCH_RESULTS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+MATCH_ID                            FIRST     *   ,  O(") CHARACTER            
+DATE_OF_MATCH                        NEXT     *   ,  O(") DATE YYYY-MM-DD      
+START_TIME_OF_MATCH                  NEXT     *   ,  O(") DATETIME hh24:mi:ss      
+TEAM1                                NEXT     *   ,  O(") CHARACTER            
+TEAM2                                NEXT     *   ,  O(") CHARACTER            
+TEAM1_SCORE                          NEXT     *   ,  O(") CHARACTER            
+TEAM2_SCORE                          NEXT     *   ,  O(") CHARACTER            
+STADIUM_NAME                         NEXT     *   ,  O(") CHARACTER            
+HOST_CITY                            NEXT     *   ,  O(") CHARACTER            
+
+Record 65: Discarded - all columns null.
+
+Table MATCH_RESULTS:
+  64 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  1 Row not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            65
+Total logical records rejected:         0
+Total logical records discarded:        1
+
+Run began on Sun Jul 05 16:41:27 2015
+Run ended on Sun Jul 05 16:41:38 2015
+
+Elapsed time was:     00:00:10.71
+CPU time was:         00:00:00.02

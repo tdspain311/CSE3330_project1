@@ -1,0 +1,50 @@
+
+SQL*Loader: Release 10.2.0.4.0 - Production on Sun Jul 5 16:40:46 2015
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+Control File:   LoadCountry.txt
+Data File:      Country.csv
+  Bad File:     Country.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table COUNTRY, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+COUNTRY_NAME                        FIRST     *   ,  O(") CHARACTER            
+POPULATION                           NEXT     *   ,  O(") CHARACTER            
+NO_OF_WORLDCUP_WON                   NEXT     *   ,  O(") CHARACTER            
+MANAGER                              NEXT     *   ,  O(") CHARACTER            
+
+
+Table COUNTRY:
+  32 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            32
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Jul 05 16:40:46 2015
+Run ended on Sun Jul 05 16:41:08 2015
+
+Elapsed time was:     00:00:22.84
+CPU time was:         00:00:00.01

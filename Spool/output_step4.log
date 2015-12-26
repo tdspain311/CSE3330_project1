@@ -1,0 +1,1205 @@
+SQL> select * from match_results;
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         1 12-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Brazil                    Croatia                             3           1     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         2 13-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Mexico                    Cameroon                            1           0     
+Estadio das Dunas                   Natal                                       
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         3 13-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Spain                     Netherlands                         1           5     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         4 13-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+Chile                     Australia                           3           1     
+Arena Pantanal                      Cuiaba                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         5 14-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Columbia                  Greece                              3           0     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         6 14-JUN-14                                                            
+01-JUL-15 10.00.00.000000 PM                                                    
+Ivory Coast               Japan                               2           1     
+Arena Pernamuco                     Recife                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         7 14-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Uruguay                   Costa Rica                          1           3     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         8 14-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+England                   Italy                               1           2     
+Arena Amazonia                      Manaus                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+         9 15-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Switzerland               Ecuador                             2           1     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        10 15-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+France                    Honduras                            3           0     
+Estadio Beira-Rio                   Porto Alegre                                
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        11 15-JUN-14                                                            
+01-JUL-15 07.00.00.000000 PM                                                    
+Argentina                 Bosnia & Herzegovina                2           1     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        12 16-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Iran                      Nigeria                             0           0     
+Arena Da Baixada                    Curitiba                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        13 16-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Germany                   Portugal                            4           0     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        14 16-JUN-14                                                            
+01-JUL-15 07.00.00.000000 PM                                                    
+Ghana                     USA                                 1           2     
+Estadio das Dunas                   Natal                                       
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        15 17-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Belgium                   Algeria                             2           1     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        16 17-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+Russia                    South Korea                         1           1     
+Arena Pantanal                      Cuiaba                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        17 17-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Brazil                    Mexico                              0           0     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        18 18-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+Cameroon                  Croatia                             0           4     
+Arena Amazonia                      Manaus                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        19 18-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Spain                     Chile                               0           2     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        20 18-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Australia                 Netherlands                         2           3     
+Estadio Beira-Rio                   Porto Alegre                                
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        21 19-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Columbia                  Ivory Coast                         2           1     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        22 19-JUN-14                                                            
+01-JUL-15 07.00.00.000000 PM                                                    
+Japan                     Greece                              0           0     
+Estadio das Dunas                   Natal                                       
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        23 19-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Uruguay                   England                             2           1     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        24 20-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Italy                     Costa Rica                          0           1     
+Arena Pernamuco                     Recife                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        25 20-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Switzerland               France                              2           5     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        26 20-JUN-14                                                            
+01-JUL-15 07.00.00.000000 PM                                                    
+Honduras                  Ecuador                             1           2     
+Arena Da Baixada                    Curitiba                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        27 21-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Argentina                 Iran                                1           0     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        28 21-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+Nigeria                   Bosnia & Herzegovina                1           0     
+Arena Pantanal                      Cuiaba                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        29 21-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Germany                   Ghana                               2           2     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        30 22-JUN-14                                                            
+01-JUL-15 06.00.00.000000 PM                                                    
+USA                       Portugal                            2           2     
+Arena Amazonia                      Manaus                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        31 22-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Belgium                   Russia                              1           0     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        32 22-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+South Korea               Algeria                             2           4     
+Estadio Beira-Rio                   Porto Alegre                                
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        33 23-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Cameroon                  Brazil                              1           4     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        34 23-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Croatia                   Mexico                              1           3     
+Arena Pernamuco                     Recife                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        35 23-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Australia                 Spain                               0           3     
+Arena Da Baixada                    Curitiba                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        36 23-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Netherlands               Chile                               2           0     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        37 24-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Japan                     Columbia                            1           4     
+Arena Pantanal                      Cuiaba                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        38 24-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Greece                    Ivory Coast                         2           1     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        39 24-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Italy                     Uruguay                             0           1     
+Estadio das Dunas                   Natal                                       
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        40 24-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Costa Rica                England                             0           0     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        41 25-JUN-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Honduras                  Switzerland                         0           3     
+Arena Amazonia                      Manaus                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        42 25-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Ecuador                   France                              0           0     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        43 25-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Nigeria                   Argentina                           2           3     
+Estadio Beira-Rio                   Porto Alegre                                
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        44 25-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Bosnia & Herzegovina      Iran                                3           1     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        45 26-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+USA                       Germany                             0           1     
+Arena Pernamuco                     Recife                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        46 26-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Portugal                  Ghana                               2           1     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        47 26-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+South Korea               Belgium                             0           1     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        48 26-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Algeria                   Russia                              1           1     
+Arena Da Baixada                    Curitiba                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        49 28-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Brazil                    Chile                               1           1     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        50 28-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Columbia                  Uruguay                             2           0     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        51 29-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Netherlands               Mexico                              2           1     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        52 29-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Costa Rica                Greece                              1           1     
+Arena Pernamuco                     Recife                                      
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        53 30-JUN-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+France                    Nigeria                             2           0     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        54 30-JUN-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Germany                   Algeria                             2           1     
+Estadio Beira-Rio                   Porto Alegre                                
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        55 01-JUL-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Argentina                 Switzerland                         1           0     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        56 01-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Belgium                   USA                                 2           1     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        57 04-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Brazil                    Columbia                            2           1     
+Estadio Castelao                    Fortaleza                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        58 04-JUL-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+France                    Germany                             0           1     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        59 05-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Netherlands               Costa Rica                          0           0     
+Arena Fonte Nova                    Salvador                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        60 05-JUL-14                                                            
+01-JUL-15 01.00.00.000000 PM                                                    
+Argentina                 Belgium                             1           0     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        61 08-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Brazil                    Germany                             1           7     
+Estadio Mineirao                    Belo Horizonte                              
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        62 09-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Netherlands               Argentina                           0           0     
+Arena de Sao Paulo                  Sao Paulo                                   
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        63 12-JUL-14                                                            
+01-JUL-15 05.00.00.000000 PM                                                    
+Brazil                    Netherlands                         0           3     
+Estadio Nacional                    Brasilia                                    
+                                                                                
+
+  MATCH_ID DATE_OF_M                                                            
+---------- ---------                                                            
+START_TIME_OF_MATCH                                                             
+---------------------------------------------------------------------------     
+TEAM1                     TEAM2                     TEAM1_SCORE TEAM2_SCORE     
+------------------------- ------------------------- ----------- -----------     
+STADIUM_NAME                        HOST_CITY                                   
+----------------------------------- --------------------                        
+        64 13-JUL-14                                                            
+01-JUL-15 04.00.00.000000 PM                                                    
+Germany                   Argentina                           1           0     
+Estadio do Maracana                 Rio De Janerio                              
+                                                                                
+
+64 rows selected.
+
+SQL> desc match_results;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ MATCH_ID                                  NOT NULL NUMBER(38)
+ DATE_OF_MATCH                                      DATE
+ START_TIME_OF_MATCH                                TIMESTAMP(6)
+ TEAM1                                              VARCHAR2(25)
+ TEAM2                                              VARCHAR2(25)
+ TEAM1_SCORE                                        NUMBER(38)
+ TEAM2_SCORE                                        NUMBER(38)
+ STADIUM_NAME                                       VARCHAR2(35)
+ HOST_CITY                                          VARCHAR2(20)
+
+SQL>  insert into match_results(match_id,date_of_match,start_time_of_match,team1,team2,team1_score,team2_score,stadium_name,host_city)values
+  2    2  (123456,'10/20/2014','15:23:000',196752,267543,1,2,'Estadio do Maracana','Rio de Janerio');
+ insert into match_results(match_id,date_of_match,start_time_of_match,team1,team2,team1_score,team2_score,stadium_name,host_city)values
+                                                                                                                                 *
+ERROR at line 1:
+ORA-00947: not enough values 
+
+
+SQL> insert into players(player_id,name,fname,lname,dob,country,height,club,position,caps_for_country,is_captain)
+  2  values(123453,'Jack Smith','Jack','Smith',09/19/1976,'Ghana',176,'eowirughoghehgweog','forward',6,0);
+values(123453,'Jack Smith','Jack','Smith',09/19/1976,'Ghana',176,'eowirughoghehgweog','forward',6,0)
+                                               *
+ERROR at line 2:
+ORA-00932: inconsistent datatypes: expected DATE got NUMBER 
+
+
+SQL> select * from player_cards;
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    298664            0          1                                              
+    312987            2          1                                              
+    369058            0          1                                              
+    290824            0          1                                              
+    200261            0          1                                              
+    275931            0          1                                              
+    209827            2          1                                              
+    214887            3          1                                              
+    286481            0          1                                              
+    202544            1          1                                              
+    269058            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    314197            1          0                                              
+    217315            2          0                                              
+    306548            1          0                                              
+    373400            1          0                                              
+    184616            1          0                                              
+    213001            2          0                                              
+    214876            1          0                                              
+    312868            1          0                                              
+    184615            2          0                                              
+    300411            3          0                                              
+    207528            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    301059            2          0                                              
+    307849            1          0                                              
+    197514            2          0                                              
+    291393            1          0                                              
+    208016            1          0                                              
+    251352            1          0                                              
+    367388            1          0                                              
+    178119            2          0                                              
+    229499            1          0                                              
+    318150            1          0                                              
+    196900            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    183893            1          0                                              
+    299090            1          0                                              
+    297112            1          0                                              
+    200213            1          0                                              
+    266800            1          0                                              
+    358014            1          0                                              
+    290904            1          0                                              
+    289964            3          0                                              
+    318688            1          0                                              
+    319432            1          0                                              
+    356399            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    273996            1          0                                              
+    196748            1          0                                              
+    214384            1          0                                              
+    201787            1          0                                              
+    367913            1          0                                              
+    183000            2          0                                              
+    300237            1          0                                              
+    296633            1          0                                              
+    349576            1          0                                              
+    185641            1          0                                              
+    229498            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    209940            1          0                                              
+    367918            1          0                                              
+    311148            2          0                                              
+    239433            2          0                                              
+    176971            2          0                                              
+    298677            2          0                                              
+    379264            2          0                                              
+    349582            2          0                                              
+    358013            2          0                                              
+    289195            2          0                                              
+    290864            2          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    349592            2          0                                              
+    358736            2          0                                              
+    196752            2          0                                              
+    354883            1          0                                              
+    301165            1          0                                              
+    330659            1          0                                              
+    367261            1          0                                              
+    336791            1          0                                              
+    213953            1          0                                              
+    216650            1          0                                              
+    276131            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    367393            1          0                                              
+    233167            1          0                                              
+    361222            1          0                                              
+    359223            1          0                                              
+    197411            1          0                                              
+    268594            1          0                                              
+    200259            1          0                                              
+    353235            1          0                                              
+    268822            1          0                                              
+    369392            1          0                                              
+    213170            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    212306            1          0                                              
+    362649            1          0                                              
+    336043            1          0                                              
+    214961            1          0                                              
+    369983            1          0                                              
+    290825            1          0                                              
+    217172            1          0                                              
+    294626            1          0                                              
+    176644            1          0                                              
+    184373            1          0                                              
+    323339            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    289027            1          0                                              
+    200219            1          0                                              
+    215208            1          0                                              
+    216970            1          0                                              
+    237071            1          0                                              
+    358049            1          0                                              
+    182372            1          0                                              
+    313021            1          0                                              
+    199175            1          0                                              
+    208120            1          0                                              
+    318172            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    307541            1          0                                              
+    290821            1          0                                              
+    228336            1          0                                              
+    323556            1          0                                              
+    216004            1          0                                              
+    216645            1          0                                              
+    190962            1          0                                              
+    296827            1          0                                              
+    356712            1          0                                              
+    267829            1          0                                              
+    286238            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+      3408            1          0                                              
+    280487            1          0                                              
+    234463            1          0                                              
+    212246            1          0                                              
+    200133            1          0                                              
+    233703            1          0                                              
+    311558            1          0                                              
+    238112            1          0                                              
+    228528            1          0                                              
+    321971            1          0                                              
+    229051            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    216069            1          0                                              
+    216814            1          0                                              
+    200935            1          0                                              
+    312432            1          0                                              
+    200199            1          0                                              
+    368655            1          0                                              
+    349578            1          0                                              
+    310048            1          0                                              
+    297373            1          0                                              
+    358101            1          0                                              
+    379939            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    175512            1          0                                              
+    358891            1          0                                              
+    234405            1          0                                              
+    274329            1          0                                              
+    311850            1          0                                              
+    323623            1          0                                              
+    213878            1          0                                              
+    215513            1          0                                              
+    367555            1          0                                              
+    290452            1          0                                              
+    267543            1          0                                              
+
+ PLAYER_ID YELLOW_CARDS  RED_CARDS                                              
+---------- ------------ ----------                                              
+    214407            1          0                                              
+    291329            1          0                                              
+    298959            1          0                                              
+    312679            1          0                                              
+    207946            1          0                                              
+    213879            1          0                                              
+    268406            1          0                                              
+    237949            1          0                                              
+    363578            1          0                                              
+    271253            1          0                                              
+
+164 rows selected.
+
+SQL> insert into player_cards(player_id,yellow_cards,red_cards)
+  2  values(123456,1,0);
+insert into player_cards(player_id,yellow_cards,red_cards)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (IMS3488.PLAYERFK) violated - parent key not 
+found 
+
+
+SQL> select * from country;
+
+COUNTRY_NAME         POPULATION NO_OF_WORLDCUP_WON MANAGER                      
+-------------------- ---------- ------------------ --------------------         
+Australia                 23.59                  0 Ange Postecoglou             
+Iran                      77.97                  0 Carlos Queiroz               
+Japan                    127.06                  0 Alberto Zaccheroni           
+South Korea               50.42                  0 Hong Myung-bo                
+Algeria                    39.9                  0 Vahid Halilhodzic            
+Cameroon                  23.03                  0 Volker Finke                 
+Ghana                      25.9                  0 James Kwesi Appiah           
+Ivory Coast               20.32                  0 Sabri Lamouchi               
+Nigeria                   173.6                  0 Stephen Keshi                
+Costa Rica                 4.87                  0 Jorge Luis Pinto             
+Honduras                   8.09                  0 Luis Fernando Suarez         
+
+COUNTRY_NAME         POPULATION NO_OF_WORLDCUP_WON MANAGER                      
+-------------------- ---------- ------------------ --------------------         
+Mexico                    122.3                  0 Miguel Herrera               
+USA                       318.9                  0 Jurgen Klinsmann             
+Argentina                  42.3                  2 Alejandro Sabella            
+Brazil                    202.4                  5 Luiz Felipe Scolari          
+Chile                     17.62                  0 Jorge Sampaoli               
+Columbia                  49.14                  0 Jose Pekerman                
+Ecuador                   15.98                  0 Reinaldo Rueda               
+Uruguay                    3.42                  2 Oscar Tabarez                
+Belgium                    11.2                  0 Marc Wilmots                 
+Bosnia & Herzegovina       3.83                  0 Safet Susic                  
+Croatia                    4.25                  0 Niko Kovac                   
+
+COUNTRY_NAME         POPULATION NO_OF_WORLDCUP_WON MANAGER                      
+-------------------- ---------- ------------------ --------------------         
+England                    53.5                  1 Roy Hodgson                  
+France                     64.6                  1 Didier Deschamps             
+Germany                    82.6                  4 Joachim Low                  
+Greece                     11.2                  0 Fernando Santos              
+Italy                     61.07                  4 Cesare Prandelli             
+Netherlands                16.9                  0 Louis van Gaal               
+Portugal                  10.58                  0 Paulo Bento                  
+Russia                   142.46                  0 Fabio Capello                
+Spain                      47.1                  1 Vicente del Bosque           
+Switzerland                   8                  0 Ottmar Hitzfeld              
+
+32 rows selected.
+
+SQL> insert into country(country_name,population,no_of_worldcup_won,manager)
+  2  values('Japan','45.3',0,'Jack Smith');
+insert into country(country_name,population,no_of_worldcup_won,manager)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (IMS3488.COUNTRY_PK) violated 
+
+
+SQL> spool off
